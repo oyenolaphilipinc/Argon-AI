@@ -1,0 +1,44 @@
+.team-class{
+    color: white;
+    font-size: 3.5rem;
+    margin-top: 8rem;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-around;
+}
+.font{
+    font-weight: bold;
+    letter-spacing: 8px;
+}
+.text{
+    margin-top: 10rem;
+}
+.meet{
+    text-align: center;
+    color: white;
+    margin-top: 3rem;
+}
+.meet-text{
+    font-size: 3rem;
+    font-weight: bold;
+}
+.border-solid{
+    margin-left: 200px;
+    margin-top: 40px;
+}
+.team-flex{
+    display: flex;
+}
+.ariel{
+    margin-left: 100px;
+    margin-top: 40px
+}
+.erez{
+    margin-left: 100px;
+    margin-top: 40px;
+}
+.ceo{
+    margin-top: 8px;
+    color: white;
+    font-size: larger;
+}
