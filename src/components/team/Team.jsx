@@ -27,18 +27,18 @@ function Team(){
         <div className='team-flex'>
             <div className="border-solid">
                 <img src={Todd} height={250} width={250} className="todd-img" alt={"todd"} />
-                <h2 className="text-center ceo mb-2">Suraga Devraj</h2>
-                <p className="text-center text-white">Co-Founder and CEO</p>
+                <h2 className="ceo">Suraga Devraj</h2>
+                <p className="top">Co-Founder and CEO</p>
             </div>
             <div className="ariel">
                 <img src={Ariel} height={250} width={250} className="ariel-img" alt={"Ariel"} />
-                <h2 className="text-center ceo mb-2">Oyenola Philip</h2>
-                <p className="text-center text-white">Co-Founder and CTO</p>
+                <h2 className="ceo">Oyenola Philip</h2>
+                <p className="top">Co-Founder and CTO</p>
             </div>
             <div className="erez">
                 <img src={Erez} height={250} width={250} className="erez-img" alt={"Erez"} />
-                <h2 className="text-center ceo mb-2">Sunil Pumar</h2>
-                <p className="text-center text-white">Senior Engineer</p>
+                <h2 className="ceo">Sunil Pumar</h2>
+                <p className="top">Senior Engineer</p>
             </div>
         </div>
         </div>

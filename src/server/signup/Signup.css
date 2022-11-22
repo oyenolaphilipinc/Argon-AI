@@ -19,7 +19,7 @@ body{
 
 @media only screen and (max-width: 768px) {
   .login-box{
-    min-width: 100%;
+    min-width: 65%;
   }
 }
 
@@ -65,13 +65,13 @@ body{
 }
 
 #login-button {
-  width: 20%;
+  max-width: 20%;
   border: none;
   background-color: #794bc4;
   border-radius: 10px;
   padding: 10px;
-  padding-right: 210px;
-  padding-left: 170px;
+  padding-right: 120px;
+  padding-left: 80px;
   font-size: 16px;
   font-weight: bold;
   color: white;
