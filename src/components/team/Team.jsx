@@ -1,10 +1,11 @@
 import React from 'react'
-import Navbar from '../navbar/Navbar';
+import { Navbar } from '../../components';
 import './Team.css'
 import Logo from '../../assets/possibility.png'
 import Todd from '../../assets/todd.png'
 import Ariel from '../../assets/ariel.png'
 import Erez from '../../assets/erez.png'
+import { Footer } from '../../containers';
 
 function Team(){
     return(
@@ -17,7 +18,7 @@ function Team(){
                 <h2 className="font">We think different.</h2>
                 <h2 className="font">We are Smart.</h2>
             </div>
-            <div>
+            <div className="logo">
                 <img src={Logo} height={500} width={500} alt="Possible" />
             </div>
         </div>
@@ -42,6 +43,7 @@ function Team(){
             </div>
         </div>
         </div>
+        <Footer />
         </>
     )
 }
