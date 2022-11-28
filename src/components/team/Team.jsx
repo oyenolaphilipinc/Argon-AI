@@ -19,7 +19,7 @@ function Team(){
                 <h2 className="font">We are Smart.</h2>
             </div>
             <div className="logo">
-                <img src={Logo} height={500} width={500} alt="Possible" />
+                <img src={Logo} height={500} width={500} alt="Possible logo" />
             </div>
         </div>
         <div className="meet">
