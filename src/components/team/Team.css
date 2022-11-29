@@ -1,7 +1,9 @@
-*{
-    margin: 0;
+* {
+    box-sizing: border-box;
     padding: 0;
-}
+    margin: 0;
+    scroll-behavior: smooth;
+  }
 .team-class{
     color: white;
     font-size: 3.5rem;
@@ -54,10 +56,12 @@
     color: white;
 }
 @media only screen and (max-width: 768px) {
-    *{
-        margin: 0px;
-        padding: 0px;
-    }
+    * {
+        box-sizing: border-box;
+        padding: 0;
+        margin: 0;
+        scroll-behavior: smooth;
+      }
     .team-class{
         display: flex;
         flex-direction: column;
