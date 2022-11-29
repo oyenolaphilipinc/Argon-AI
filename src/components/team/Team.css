@@ -50,6 +50,10 @@
     color: white;
 }
 @media only screen and (max-width: 768px) {
+    *{
+        margin: 0px;
+        padding: 0px;
+    }
     .team-class{
         display: flex;
         flex-direction: column;
